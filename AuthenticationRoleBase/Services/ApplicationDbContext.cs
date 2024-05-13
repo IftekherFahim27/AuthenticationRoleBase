@@ -11,6 +11,8 @@ namespace AuthenticationRoleBase.Services
         }
 
         public DbSet<LeadEntity> LeadEntities { get; set; }
+
+        public DbSet<Category>Categories { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }
